@@ -12,4 +12,10 @@ pipeline {
 	}
 	}
 	  }
+	stage("Couverture du code") {
+	steps {
+	sh "./gradlew jacocoTestReport"
+	sh "./gradlew jacocoTestCoverageVerification"
+	}	
 	}
+}

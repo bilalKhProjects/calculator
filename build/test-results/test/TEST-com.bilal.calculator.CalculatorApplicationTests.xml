@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bilal.calculator.CalculatorApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-14T19:20:12" hostname="bilal-HP-EliteBook-x360-1030-G2" time="0.902">
+<testsuite name="com.bilal.calculator.CalculatorApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-14T19:45:09" hostname="bilal-HP-EliteBook-x360-1030-G2" time="1.247">
   <properties/>
-  <testcase name="contextLoads()" classname="com.bilal.calculator.CalculatorApplicationTests" time="0.902"/>
-  <system-out><![CDATA[14:20:10.914 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bilal.calculator.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:20:11.038 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bilal.calculator.CalculatorApplication for test class com.bilal.calculator.CalculatorApplicationTests
+  <testcase name="contextLoads()" classname="com.bilal.calculator.CalculatorApplicationTests" time="1.247"/>
+  <system-out><![CDATA[14:45:05.779 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bilal.calculator.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:45:06.025 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bilal.calculator.CalculatorApplication for test class com.bilal.calculator.CalculatorApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,9 +13,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.0)
 
-2023-12-14T14:20:11.443-05:00  INFO 9663 --- [    Test worker] c.b.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 17.0.8.1 with PID 9663 (started by bilal in /home/bilal/calculator)
-2023-12-14T14:20:11.444-05:00  INFO 9663 --- [    Test worker] c.b.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: "default"
-2023-12-14T14:20:12.634-05:00  INFO 9663 --- [    Test worker] c.b.c.CalculatorApplicationTests         : Started CalculatorApplicationTests in 1.436 seconds (process running for 2.798)
+2023-12-14T14:45:06.807-05:00  INFO 11822 --- [    Test worker] c.b.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 17.0.8.1 with PID 11822 (started by bilal in /home/bilal/calculator)
+2023-12-14T14:45:06.810-05:00  INFO 11822 --- [    Test worker] c.b.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2023-12-14T14:45:08.987-05:00  INFO 11822 --- [    Test worker] c.b.c.CalculatorApplicationTests         : Started CalculatorApplicationTests in 2.639 seconds (process running for 5.089)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
